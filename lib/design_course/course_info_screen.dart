@@ -144,9 +144,9 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
                               padding: const EdgeInsets.all(8),
                               child: Row(
                                 children: <Widget>[
-                                  getTimeBoxUI('24', 'Classe'),
-                                  getTimeBoxUI('2hours', 'Time'),
-                                  getTimeBoxUI('24', 'Seat'),
+                                  getTimeBoxUI('Basic', 'Level'),
+                                  getTimeBoxUI('10 Minutes', 'Time'),
+                                  
                                 ],
                               ),
                             ),
@@ -197,7 +197,7 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
                                                 .withOpacity(0.2)),
                                       ),
                                       child: Icon(
-                                        Icons.add,
+                                        Icons.help_outline,
                                         color: DesignCourseAppTheme.nearlyBlue,
                                         size: 28,
                                       ),
@@ -225,7 +225,7 @@ class _CourseInfoScreenState extends State<CourseInfoScreen>
                                       ),
                                       child: Center(
                                         child: Text(
-                                          'Join Course',
+                                          'Watch Tutorial',
                                           textAlign: TextAlign.left,
                                           style: TextStyle(
                                             fontWeight: FontWeight.w600,
